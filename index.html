@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.1.1/css/all.css"
+    integrity="sha384-/frq1SRXYH/bSyou/HUp/hib7RVN1TawQYja658FEOodR/FQBKVqT9Ol+Oz3Olq5" crossorigin="anonymous" />
+  <link rel="stylesheet" href="css/styles.css" />
+  <title>Portfolio</title>
+</head>
+
+<body class="dark">
+  <header class="header">
+    <div class="switches">
+      <div id="toggle-theme" class="toggle-theme">
+        <img class="toggle-theme__icon fa-moon" id="toggle-icon" src="assets/icons/moon.svg" alt="icon theme" />
+        <p id="toggle-text" class="toggle-theme__text">Dark Mode</p>
+      </div>
+    </div>
+    <!-- <div> -->
+          <img src="assets/images/AG-logo.png" alt="logo" class="experience__image--header" />
+    <!-- </div> -->
+    <div id="toggle-colors" class="colors">
+      <div id="toggle-colorA" data-color="hsl(214, 84%, 56%)" class="colors__item colors__item--blue"></div>
+      <div id="toggle-colorB" data-color="hsl(150, 84%, 56%)" class="colors__item colors__item--green"></div>
+      <div id="toggle-colorC" data-color="hsl(276, 84%, 56%)" class="colors__item colors__item--purple"></div>
+      <div id="toggle-colorD" data-color="hsl(30, 84%, 56%)" class="colors__item colors__item--orange"></div>
+    </div>
+  </header>
+  <main class="main">
+    <section class="column column--left">
+      <!-- PROFILE CARD -->
+      <article class="card card--profile">
+        <!-- <div class="card__image-container">
+          <img src="assets/images/profile.jpg" alt="profile" />
+        </div> -->
+        <div class="card__header">
+          <h2 class="card__title no__margin">Armando Guerrero</h2>
+          <p class="card__subtitle no__margin">Full-Stack Web Developer</p>
+        </div>
+        <div class="card__body">
+          <div class="card__link">
+            <i class="fa-solid fa-envelope"></i>
+            <a class="card-mailto" href="mailto:haguerrerob@gmail.com">haguerrerob@gmail.com</a>
+          </div>
+          <div class="card__link">
+            <i class="fa-solid fa-phone"></i>
+            <a href="tel:+5491138327172">+54 9 1138327172</a>
+          </div>
+          <p class="card__text">
+            Desde 2021, mis intereses profesionales se centran en el desarrollo de aplicaciones Web Full-Stack:            
+            JavaScript, React, Svelte, Redux, NextJS, NodeJS, 
+            PostgreSQL, Sequalize, MongoDB, LooPBack, Strapi).
+          </p>
+          <p class="card__text">
+            Ingeniero Mecánico, Ms.C. en Mecánica Teórica y Aplicada. Durante mi desarrollo profesional,
+            me especialicé en Diseño Asistido por Computadora y en análisis de esfuerzos en componentes mecánicos, 
+            trabajando para ello en el desarrollo de los métodos de Elementos Finitos (FEM) y Elementos de Contorno (BEM) 
+            junto a grupos de investigación internacional. Poseo estudios doctorales en Ingeniería, enfocados en el desarrollo 
+            de modelos matemáticos de la mecánica.
+            </p>
+        </div>
+      </article>
+      <article class="card card--experience">
+        <h2 class="card__title">Experiencia</h2>
+        <div class="experience">
+          <a href="https://awlatam.com/" target="_blank" class="experience__image">
+            <img src="assets/icons/ArtWare.png" alt="logo"/>
+          </a>
+          <div class="experience__info">
+            <p class="experience__time">may 2021 - jul 2021</p>
+            <h3 class="experience__job">Power Apps Developer</h3>
+            <p class="experience__description">
+              Desarrollo de aplicaciones empresariales utilizando Microsoft Dynamics 365, Power Apps, Power Automate y Power BI.
+            </p>
+          </div>
+        </div>
+        <div class="experience">
+          <img src="assets/images/AG-logo.png" alt="logo" class="experience__image" />
+          <div class="experience__info">
+            <p class="experience__time">Agosto 2021 - current</p>
+            <h3 class="experience__job">Full-Stack Web Developer Freelancer</h3>
+            <p class="experience__description">
+              Desarrollo de aplicaciones Web para diferentes clientes privados.
+            </p>
+          </div>
+        </div>
+      </article>
+      <article class="card card--hobbies">
+        <h2 class="card__title">Hobbies</h2>
+        <div class="card__image-container">
+          <img src="assets/images/hobbie-kenpo.png" alt="hobbie" />
+        </div>
+        <h3 class="hobbie__title">Moutain-Bike - Karate</h3>
+        <p class="card__text">
+          Apasionado del Mountain-Bike y del Karate, especialmente del Kenpo Karate, arte marcial creado por el Maestro Ed Parker
+        </p>
+      </article>
+    </section>
+    <section class="column column--right">
+      <article class="card lineal--card">
+        <h2 class="card__title">Tecnologías Front-End</h2>
+        <div class="card__flex">
+          <a href="https://developer.mozilla.org/en-US/docs/Learn/HTML" target="_blank" class="card__image-containerB">
+            <img src="assets/icons/HTML.png" alt="front-end" />
+          </a>
+          <a class="card__image-containerB" href="https://developer.mozilla.org/en-US/docs/Learn/CSS"
+            target="_blank"><img src="assets/icons/CSS.png" alt="front-end" />
+          </a>
+          <a class="card__image-containerB" href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript"
+            target="_blank">
+            <img src="assets/icons/JavaScript.png" alt="front-end" />
+          </a>
+          <a class="card__image-containerB" href="https://svelte.dev/" target="_blank">
+            <img src="assets/icons/svelte.png" alt="front-end" />
+          </a>
+          <a class="card__image-containerB" href="https://reactjs.org/" target="_blank">
+            <img src="assets/icons/React.png" alt="front-end" />
+          </a>
+
+          <a class="card__image-containerB" href="https://redux.js.org/" target="_blank">
+            <img src="assets/icons/Redux.png" alt="front-end" />
+          </a>
+      </article>
+      <article class="card lineal--card">
+        <h2 class="card__title">Tecnologías Back-End</h2>
+        <div class="card__flex">
+          <a class="card__image-containerB" href="https://expressjs.com/" target="_blank"><img
+              src="assets/icons/NodeExpress.png" alt="front-end" />
+          </a>
+          <a class="card__image-containerB" href="https://sequelize.org/" target="_blank">
+            <img src="assets/icons/sequalize.png" alt="front-end" />
+          </a>
+          <a class="card__image-containerB" href="https://www.postgresql.org/" target="_blank">
+            <img src="assets/icons/PostgreSQL.png" alt="front-end" />
+          </a>
+          <a class="card__image-containerB" href="https://www.mongodb.com/" target="_blank">
+            <img src="assets/icons/MongoDB.png" alt="front-end" />
+          </a>
+          <a class="card__image-containerB" href="https://strapi.io/" target="_blank">
+            <img src="assets/icons/Strapi.png" alt="front-end" />
+          </a>
+      </article>
+      <article class="card lineal--card">
+        <h2 class="card__title">Tecnologías relacionadas</h2>
+        <div class="card__flex">
+          <a class="card__image-containerB" href="https://github.com/" target="_blank"><img
+              src="assets/icons/GitHub-green.png" alt="front-end" />
+          </a>
+          <a class="card__image-containerB" href="https://www.atlassian.com/agile" target="_blank">
+            <img src="assets/icons/Herramientas-Agiles.png" alt="front-end" />
+          </a>
+          <a class="card__image-containerB" href="https://www.adobe.com/" target="_blank">
+            <img src="assets/icons/PS.png" alt="front-end" />
+          </a>
+          <a class="card__image-containerB" href="https://www.adobe.com/" target="_blank">
+            <img src="assets/icons/AI.png" alt="front-end" />
+          </a>
+      </article>
+      <article class="card card--project">
+        <div class="card__image-containerA">
+          <img class="card__image" src="assets/images/intro-section-desktop-design.jpg" alt="project" />
+        </div>
+        <div class="project">
+          <div class="project__tags">
+            <span class="project__tag">#Svelte-Kit</span>
+            <span class="project__tag">#Tailwind-CSS</span>
+            <span class="project__tag">#Mobile-first</span>
+          </div>
+          <h2 class="card__title-A">Intro section with dropdown navigation</h2>
+          <p class="card__text">
+            Landig page responsive utilizando Sveltekit y TailwindCss
+          </p>
+          <div class="buttons">
+            <a href="https://intro-section-with-dropdown-navigation-murex.vercel.app/" target="_blank"
+              class="button button--primary">Demo</a>
+            <a href="https://github.com/haguerrerob/intro-section-with-dropdown-navigation" target="_blank"
+              class="button button--ghost">Code</a>
+          </div>
+        </div>
+      </article>
+      <article class="card card--project">
+        <div class="card__image-containerA">
+          <img class="card__image" src="assets/images/sunny-desktop-preview.jpg" alt="project" />
+        </div>
+        <div class="project">
+          <div class="project__tags">
+            <span class="project__tag">#Svelte-Kit</span>
+            <span class="project__tag">#Tailwind-CSS</span>
+            <span class="project__tag">#Mobile-first</span>
+          </div>
+          <h2 class="card__title-A">Sunnyside agency landing page</h2>
+          <p class="card__text">
+            Landig page responsive utilizando Sveltekit y TailwindCss
+          </p>
+          <div class="buttons">
+            <a href="https://sunny-agency-landing-page-main.vercel.app/" target="_blank"
+              class="button button--primary">Demo</a>
+            <a href="https://github.com/haguerrerob/sunny-agency-landing-page-main" target="_blank"
+              class="button button--ghost">Code</a>
+          </div>
+        </div>
+      </article>
+            <article class="card card--project">
+        <div class="card__image-containerA">
+          <img class="card__image" src="assets/images/freeGames.jpg" alt="project" />
+        </div>
+        <div class="project">
+          <div class="project__tags">
+            <span class="project__tag">#ReactJS</span>
+            <span class="project__tag">#Redux</span>
+            <span class="project__tag">#Styled-Components</span>
+          </div>
+          <div class="project__tags">
+            <span class="project__tag">#Mobile-first</span>
+            <span class="project__tag">#NodeJS</span>
+            <span class="project__tag">#Express</span>
+            <span class="project__tag">#Sequelize</span>
+          </div>
+          <h2 class="card__title-A">The Free Games Web</h2>
+          <p class="card__text">
+            Aplicación de juegos que contiene un backend desarrollado en NodeJS, Xpress y Sequelize y un frontend desarrollado en ReactJS, Redux y Styled-Components.
+          </p>
+          <div class="buttons">
+            <a href="https://games-client.vercel.app/" target="_blank"
+              class="button button--primary">Demo</a>
+            <a href="https://github.com/haguerrerob/games-client" target="_blank"
+              class="button button--ghost">Code</a>
+          </div>
+        </div>
+      </article>
+    </section>
+  </main>
+  <footer class="footer">
+    <div>Armando Guerrero 2022</div>
+    <div class="rrss__links">
+      <div>
+        <a href="https://github.com/haguerrerob" target="_blank">
+          <img src="assets/icons/GitHub-green.png" alt="linkedin" class="footer__image" />
+        </a>
+      </div>
+      <div>
+        <a href="https://www.linkedin.com/in/armandoguerrerobonilla" target="_blank">
+          <img src="assets/icons/linkedin-green.png" alt="linkedin" class="footer__image" />
+        </a>
+      </div>
+    </div>
+  </footer>
+</body>
+<script src="js/scripts.js"></script>
+
+</html>
